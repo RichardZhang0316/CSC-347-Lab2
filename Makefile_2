@@ -1,0 +1,4 @@
+all: MatrixMultNaive.cu
+	nvcc -o MatrixMultNaive MatrixMultNaive.cu
+clean:
+	rm -f MatrixMultNaive

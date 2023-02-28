@@ -1,0 +1,4 @@
+all: MatrixMultTiled.cu
+	nvcc -o MatrixMultTiled MatrixMultTiled.cu
+clean:
+	rm -f MatrixMultTiled
